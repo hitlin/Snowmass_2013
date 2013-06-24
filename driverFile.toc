@@ -1,35 +1,35 @@
 \contentsline {chapter}{\numberline {1}Charged Leptons}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Overview}{3}{section.1.1}
-\contentsline {section}{\numberline {1.2}Flavor-Violating Processes}{5}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Theory Overview}{5}{subsection.1.2.1}
-\contentsline {subsubsection}{\numberline {1.2.1.1}CLFV Decays in Specific New Physics Models}{5}{subsubsection.1.2.1.1}
-\contentsline {paragraph}{\numberline {1.2.1.1.1}$\mu $ decays}{5}{paragraph.1.2.1.1.1}
-\contentsline {paragraph}{\numberline {1.2.1.1.2}$\tau $ decays}{5}{paragraph.1.2.1.1.2}
-\contentsline {subsection}{\numberline {1.2.2}Muon Experimental Overview}{5}{subsection.1.2.2}
-\contentsline {subsubsection}{\numberline {1.2.2.1}Muon Flavor Violation Experiments in this Decade}{5}{subsubsection.1.2.2.1}
-\contentsline {subsubsection}{\numberline {1.2.2.2}Muon Flavor Violation: The Next Generation}{5}{subsubsection.1.2.2.2}
-\contentsline {paragraph}{\numberline {1.2.2.2.1}Mu2e at Project X}{5}{paragraph.1.2.2.2.1}
-\contentsline {paragraph}{\numberline {1.2.2.2.2}A surface $\mu ^+$ Beam}{5}{paragraph.1.2.2.2.2}
-\contentsline {paragraph}{\numberline {1.2.2.2.3}$\mu \to e \gamma $}{5}{paragraph.1.2.2.2.3}
-\contentsline {paragraph}{\numberline {1.2.2.2.4}$\mu \to 3e$}{7}{paragraph.1.2.2.2.4}
-\contentsline {paragraph}{\numberline {1.2.2.2.5}Muonium $\to $ anti-muonium}{7}{paragraph.1.2.2.2.5}
-\contentsline {subsection}{\numberline {1.2.3}Tau Experimental Overview}{7}{subsection.1.2.3}
-\contentsline {subsubsection}{\numberline {1.2.3.1}Super $B$ Factory}{10}{subsubsection.1.2.3.1}
-\contentsline {subsubsection}{\numberline {1.2.3.2}$\tau $-charm Factory}{10}{subsubsection.1.2.3.2}
-\contentsline {subsubsection}{\numberline {1.2.3.3}Leptoquark ($e \to \tau $) search}{10}{subsubsection.1.2.3.3}
-\contentsline {section}{\numberline {1.3}Flavor-Conserving Processes}{10}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Theory overview}{10}{subsection.1.3.1}
-\contentsline {subsubsection}{\numberline {1.3.1.1}Muon $g-2$ and EDM}{10}{subsubsection.1.3.1.1}
-\contentsline {subsubsection}{\numberline {1.3.1.2}$\tau $ $g-2$ and EDM}{10}{subsubsection.1.3.1.2}
-\contentsline {subsection}{\numberline {1.3.2}Muon $g-2$ and EDM Experiments}{10}{subsection.1.3.2}
-\contentsline {section}{\numberline {1.4}Dipole Moments}{10}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Muon $g-2$: Experiment}{14}{subsection.1.4.1}
-\contentsline {subsubsection}{\numberline {1.4.1.1} Future $g-2$ Experiments}{14}{subsubsection.1.4.1.1}
-\contentsline {subsection}{\numberline {1.4.2}Muon $g-2$: Expected Improvements in the predicted value}{15}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}Storage Ring EDM experiments}{17}{subsection.1.4.3}
-\contentsline {subsubsection}{\numberline {1.4.3.1}Future $g-2$ Experiments}{23}{subsubsection.1.4.3.1}
-\contentsline {subsubsection}{\numberline {1.4.3.2}Future Muon EDM Experiments}{23}{subsubsection.1.4.3.2}
-\contentsline {subsection}{\numberline {1.4.4}Free electron EDM Experiment}{23}{subsection.1.4.4}
-\contentsline {subsection}{\numberline {1.4.5}$\tau $ $g-2$ and EDM Experiments}{23}{subsection.1.4.5}
-\contentsline {subsection}{\numberline {1.4.6}Parity-Violating Experiments}{23}{subsection.1.4.6}
-\contentsline {section}{\numberline {1.5}Summary}{23}{section.1.5}
+\contentsline {section}{\numberline {1.1}Overview}{4}{section.1.1}
+\contentsline {section}{\numberline {1.2}Flavor-Violating Processes}{7}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Theory Overview}{7}{subsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.1.1}CLFV Decays in Specific New Physics Models}{7}{subsubsection.1.2.1.1}
+\contentsline {paragraph}{\numberline {1.2.1.1.1}$\mu $ decays}{7}{paragraph.1.2.1.1.1}
+\contentsline {paragraph}{\numberline {1.2.1.1.2}$\tau $ decays}{7}{paragraph.1.2.1.1.2}
+\contentsline {subsection}{\numberline {1.2.2}Muon Experimental Overview}{7}{subsection.1.2.2}
+\contentsline {subsubsection}{\numberline {1.2.2.1}Muon Flavor Violation Experiments in this Decade}{7}{subsubsection.1.2.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2.2}Muon Flavor Violation: The Next Generation}{7}{subsubsection.1.2.2.2}
+\contentsline {paragraph}{\numberline {1.2.2.2.1}Mu2e at Project X}{7}{paragraph.1.2.2.2.1}
+\contentsline {paragraph}{\numberline {1.2.2.2.2}A surface $\mu ^+$ Beam}{7}{paragraph.1.2.2.2.2}
+\contentsline {paragraph}{\numberline {1.2.2.2.3}$\mu \to e \gamma $}{7}{paragraph.1.2.2.2.3}
+\contentsline {paragraph}{\numberline {1.2.2.2.4}$\mu \to 3e$}{9}{paragraph.1.2.2.2.4}
+\contentsline {paragraph}{\numberline {1.2.2.2.5}Muonium $\to $ anti-muonium}{9}{paragraph.1.2.2.2.5}
+\contentsline {subsection}{\numberline {1.2.3}Tau Experimental Overview}{9}{subsection.1.2.3}
+\contentsline {subsubsection}{\numberline {1.2.3.1}Super $B$ Factory}{12}{subsubsection.1.2.3.1}
+\contentsline {subsubsection}{\numberline {1.2.3.2}$\tau $-charm Factory}{12}{subsubsection.1.2.3.2}
+\contentsline {subsubsection}{\numberline {1.2.3.3}Leptoquark ($e \to \tau $) search}{12}{subsubsection.1.2.3.3}
+\contentsline {section}{\numberline {1.3}Flavor-Conserving Processes}{12}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Theory overview}{12}{subsection.1.3.1}
+\contentsline {subsubsection}{\numberline {1.3.1.1}Muon $g-2$ and EDM}{12}{subsubsection.1.3.1.1}
+\contentsline {subsubsection}{\numberline {1.3.1.2}$\tau $ $g-2$ and EDM}{12}{subsubsection.1.3.1.2}
+\contentsline {subsection}{\numberline {1.3.2}Muon $g-2$ and EDM Experiments}{12}{subsection.1.3.2}
+\contentsline {subsubsection}{\numberline {1.3.2.1}Dipole Moments}{12}{subsubsection.1.3.2.1}
+\contentsline {subsection}{\numberline {1.3.3}Muon $g-2$: Experiment}{16}{subsection.1.3.3}
+\contentsline {subsubsection}{\numberline {1.3.3.1} Future $g-2$ Experiments}{16}{subsubsection.1.3.3.1}
+\contentsline {subsection}{\numberline {1.3.4}Muon $g-2$: Expected Improvements in the predicted value}{17}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.5}Storage Ring EDM experiments}{19}{subsection.1.3.5}
+\contentsline {subsubsection}{\numberline {1.3.5.1}Future $g-2$ Experiments}{20}{subsubsection.1.3.5.1}
+\contentsline {subsubsection}{\numberline {1.3.5.2}Future Muon EDM Experiments}{20}{subsubsection.1.3.5.2}
+\contentsline {subsection}{\numberline {1.3.6}Free electron EDM Experiment}{20}{subsection.1.3.6}
+\contentsline {subsection}{\numberline {1.3.7}$\tau $ $g-2$ and EDM Experiments}{20}{subsection.1.3.7}
+\contentsline {subsection}{\numberline {1.3.8}Parity-Violating Experiments}{20}{subsection.1.3.8}
+\contentsline {section}{\numberline {1.4}Summary}{23}{section.1.4}
