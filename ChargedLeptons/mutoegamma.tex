@@ -19,7 +19,7 @@ $\Delta E_\gamma$, and $\Delta\Theta_{e\gamma}$ are the resolutions of
 detector timing, positron momentum, photon energy, and positron-photon angle,
 respectively, and $T$ is total data acquisition time. MEG will conitnue 
 taking data through 2013. They expect to
-approximately double their published dataset~\cite{G.Lim's talk at Argonne}.
+approximately double their published dataset~\cite{GLimArgonne2013}.
 
 The MEG upgrade plans to improve the experiment sensitivity by a factor of 10. 
 They will increase the intensity of the surface beam, and use a thinner or
@@ -84,8 +84,55 @@ current MEG.
    \label{fig:muegamma-resolutions}
 \end{figure}
 
-Using a converted photon to increase the $\mu^+\to e^+\gamma$ detection sensitivity
-thus appears to be a promising approach. Further studies are needed to quantify the requirements to improve upon the MEG upgrade sensitivity by an order of magnitude or more.
+
+We then perform toy studies to estimate the levels of accidental background
+and radiative muon decay background, and the sensitivities to signal branching
+fraction, under different running conditions. In addition to the five variables
+used in the likelihood fit in MEG ($E_e$, $E_\gamma$, $\theta_{e\gamma}$, 
+$\phi_{e\gamma}$, and $t_{e\gamma}$), we also take advantage of direction 
+information of the converted photon, which provides excellent discriminating
+power against accidental background. We use a cut-and-count approach to
+optimize the sensitivity. 
+
+Figure~\ref{fig:muegamma-sensitivity} shows the background levels, 
+signal efficiency, and 90\%
+C.L. sensitivity under various selection cuts for 
+$R_\mu=1\times 10^{9}$~muons/s, 50 ps resolution on $t_{e\gamma}$, for
+an integrated DAQ time of 1.5 years, as well as the sensitivity reach
+as a function of integrated DAQ time for both 50 ps and 100 ps timing
+resolutions. 
+
+Increase the muon rate futher could improve the sensitivity. However,
+it quick moves away from ${\cal O}(1)$ background regime because the accidental
+background grows $\sim R_\mu^2$. A better approach is to increase the
+efficiency and reduce the muon rate to keep the background level low. 
+Figure~\ref{fig:muegamma-sens-5x} 
+shows a scenario where the signal efficiency is 5-times higher
+and muon stopping rate is slightly reduced to $R_\mu=7\times 10^{8}$. 
+One can reach a sensitivity of $B(\mu^+\to e^+\gamma)<6\times 10^{-15}$.
+
+Using a converted photon to increase the $\mu^+\to e^+\gamma$ detection
+sensitivity thus appears to be a promising approach. Further studies are 
+needed to quantify the requirements in detail to improve upon the MEG upgrade
+sensitivity by an order of magnitude or more.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=0.48\textwidth]{ChargedLeptons/Figures/muegamma-sens-1e9-1p5y-50ps.pdf} 
+   \includegraphics[width=0.48\textwidth]{ChargedLeptons/Figures/muegamma-sens-years-1e9-2.pdf} 
+   \caption{Left: $B(\mu^+\to e^+\gamma)$ sensitivity optimzation. 
+Best sensitivity is $1.6\times 10^{-14}$. Right: sensitivity as a function of integrated DAQ time for both 50 ps and 100 ps $t_{e\gamma}$ resolutions.}
+   \label{fig:muegamma-sensitivity}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.48\textwidth]{ChargedLeptons/Figures/muegamma-sens-7e8-1p5y-50ps-x5sigeff.pdf}
+\caption{Left: $B(\mu^+\to e^+\gamma)$ sensitivity optimzation with 5-times
+higher signal sensitivity and lower $R_\mu$ than that in 
+Fig.~\ref{fig:muegamma-sensitivity}. Best sensitivity is $6\times 10^{-15}$.}
+\label{fig:muegamma-sens-5x}
+\end{figure}
 
 An alternative version of the photon conversion approach to a $\mu \to e \gamma$ experiment has also been discussed. In this version, consider a large volume solendoidal magnet, such as the KLOE coil, which has a radius of 2.9m, run at a field of perhaps 0.25T. A large volume, low mass cylindrical drift chamber provides many ($\ge$100) layers of tracking, utilizing small cells and having a total number of sense wires approaching $10^5$. Interspersed every ten layers is a 0.5 mm W converter shell. There are a sufficient number of points on the $e^+$ and $e^-$ tracks from converted photons behind each converter to reach a total conversion efficiency of perhaps 80\%, with excellent photon mass resolution. 
 
