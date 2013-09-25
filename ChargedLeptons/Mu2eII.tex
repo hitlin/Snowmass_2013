@@ -3,9 +3,9 @@
 %\input{wp-introduction}
 %-----------------------
 
-Here we summarize a feasibility study~\cite{Mu2eII} of a
+We summarize here a feasibility study~\cite{Mu2eII} of a
 next-generation Mu2e experiment (Mu2e-II) that uses much of the
-currently-planned facility and Project-X~\cite{ProjectX} beams to
+currently-planned facility and Project~X~\cite{ProjectX} beams to
 achieve a sensitivity that is about a factor of ten beyond that of the
 Mu2e experiment described in Section~\ref{cl:sec:mu2e}. A factor of
 ten improvement will be interesting regardless of the outcome of Mu2e.
@@ -31,7 +31,7 @@ To estimate the signal acceptance and background prediction for
 Mu2e-II scenarios we use \texttt{G4Beamline v2\_12}~\cite{g4bl}, which
 is a simplified version of Geant4~\cite{GEANT4}.  Three sets of
 simulated experiments are studied: the 8~\gev\ case which corresponds
-to the Mu2e configuration, and potential Project-X upgrades
+to the Mu2e configuration, and potential Project~X upgrades
 corresponding to protons with 1 or 3~\gev\ of kinetic energy.  In all
 instances the full Mu2e solenoid system is simulated including all
 collimators, the Production Solenoid heat and radiation shield, the
@@ -45,12 +45,12 @@ modeled as a delta function located at $t = 0$~ns.  In order to get a
 more accurate estimate of the experimental sensitivity we convolute
 the relevant timing distributions with the expected shape of the
 proton pulse as estimated using dedicated simulations of the Mu2e
-proton beam.  For Project-X, the width of the proton pulses are
-expected to $\pm 50$~ns for 100 kW of beam power~\cite{bobT}, which is
-about a factor of two smaller than what will be used for Mu2e.  So,
-for the Project-X studies we assume the same proton pulse shape as
+proton beam.  For Project~X, the width of the proton pulses are
+expected to be $\pm 50$~ns for 100 kW of beam power~\cite{bobT}, which is
+about a factor of two narrower than what will be used for Mu2e.  So,
+for the Project~X studies we assume the same proton pulse shape as
 supplied for Mu2e, but reduce the width of the pulse by a factor of
-two.  Most pions decay before reaching the stoping target, and due to
+two.  Most pions decay before reaching the stopping target, and due to
 this short lifetime it isn't practical to study the pion backgrounds
 if the decay is simulated.  Instead, in these studies all charged
 pions pions are propagated through to the stopping target and events
@@ -94,15 +94,15 @@ line.  In this figure the timing distributions are folded over modulo
 1695~ns in order to account for contributions from previous proton
 pulses.
 
-The bottom panel of Fig.~\ref{cl:fig:timing} shows the Project-X
+The bottom panel of Fig.~\ref{cl:fig:timing} shows the Project~X
 3~\gev\ scenario, where the proton pulse width is half that of the
 8~\gev\ configuration, and both aluminum, titanium, and gold are
 considered as a stopping target~\footnote{Note that the arrival times
 for stopped particles are slightly earlier for titanium than for
 aluminum although it isn't depicted in the figure.}. Because the proton
 pulse width is narrower, the live gate can be increased in the
-Project-X scenario~\cite{MoveLiveGate}.  The same exercise was
-performed for the Project-X 1~\gev\ scenario and with the exception of
+Project~X scenario~\cite{MoveLiveGate}.  The same exercise was
+performed for the Project~X 1~\gev\ scenario and with the exception of
 the stopping rates, the parameters of the timing distributions for the
 1~\gev\ case are very similar to those of the 3~\gev\ case.  The
 relavant quantities associated with Fig.~\ref{cl:fig:timing} are
@@ -146,7 +146,7 @@ background and signal rates for each scenario.
 %    Fraction of $\pi$-decays in live gate &  ---  & \sn{1.14}{-11} & &  ---          & \sn{4.74}{-12}      \\
 %    \hline\hline
 %  \end{tabular}
-%  \caption{Stopped muon and pion quantities for a Mu2e and for the Mu2e-II Project-X scenarios
+%  \caption{Stopped muon and pion quantities for a Mu2e and for the Mu2e-II Project~X scenarios
 %  with a narrower pulse width and 1.   The fraction of decays/captures
 %  includes contributions from the previous proton bunch.}
 %  \label{cl:tab:stopping}
@@ -158,7 +158,7 @@ background and signal rates for each scenario.
   \centering
   \includegraphics[width=0.75\textwidth]{ChargedLeptons/Figures/muon_fullCycle_Al_8GeV_Alt.pdf}
   \includegraphics[width=0.75\textwidth]{ChargedLeptons/Figures/muon_fullCycle_AlTiAu_3GeV_Alt.pdf}
-  \caption{Timing distribution for the 8-GeV Mu2e case (top) and the 3-GeV Project-X case (bottom).  Shown
+  \caption{Timing distribution for the 8-GeV Mu2e case (top) and the 3-GeV Project~X case (bottom).  Shown
   here is a figurative POT pulse width, the arrival time of the
   charged pions and muons, and the decay-time distribution of the
   muons on aluminum, titanium, and gold.}
@@ -183,23 +183,25 @@ target.
 
 %\input{wp-backgrounds}
 
-We use the quantities from Ref.~\cite{Mu2eII} to estimate the
-backgrounds for several Mu2e-II scenarios.  No additional simulation
-work was done aside from the simulations described above.
-Consequently, we here estimate the Mu2e-II backgrounds by scaling from
-the Mu2e backgrounds which were derived using full simulation as
-described in~\cite{Mu2eCDR} and references therein.  In numbers quoted
-in Ref.~\cite{Mu2eII} the stopping rates are larger for titanium than
-for aluminum due to the fact that in the simulations we left the
-stopping-target geometry unchanged and that titanium is heavier and at
-a larger $Z$.  In that configuration a titanium stopping target would
-also have a poorer momentum resolution.  In the estimates below, we
-assume that reducing the titanium stopping-target mass so that it gave
-the same stopping rates as aluminum would yield the same momentum
-resolution. Thus, in these estimates, we always use the aluminum
-stopping yields for a given proton beam energy and scale from the Mu2e
-background estimates assuming that the same detector performance for
-Mu2e-II.
+We estimate the backgrounds for several Mu2e-II scenarios as described in Ref.~\cite{Mu2eII}.  These estimates assume that the detector performance for Mu2e-II is unchanged relative to the currently planned Mu2e detector.  Simulation studies of detector performance at the higher Mu2e-II intensities indicate that this can be achieved with modest upgrades as discussed below.
+
+%We use the quantities from Ref.~\cite{Mu2eII} to estimate the
+%backgrounds for several Mu2e-II scenarios.  No additional simulation
+%work was done aside from the simulations described above.
+%Consequently, we here estimate the Mu2e-II backgrounds by scaling from
+%the Mu2e backgrounds which were derived using full simulation as
+%described in~\cite{Mu2eCDR} and references therein.  In numbers quoted
+%in Ref.~\cite{Mu2eII} the stopping rates are larger for titanium than
+%for aluminum due to the fact that in the simulations we left the
+%stopping-target geometry unchanged and that titanium is heavier and at
+%a larger $Z$.  In that configuration a titanium stopping target would
+%also have a poorer momentum resolution.  In the estimates below, we
+%assume that reducing the titanium stopping-target mass so that it gave
+%the same stopping rates as aluminum would yield the same momentum
+%resolution. Thus, in these estimates, we always use the aluminum
+%stopping yields for a given proton beam energy and scale from the Mu2e
+%background estimates assuming that the same detector performance for
+%Mu2e-II.
 
 
 For each beam scenario target nuclei we estimate the number of protons
@@ -247,11 +249,11 @@ given in Ref.~\cite{Mu2eII}.
 Several background sources will be reduced or remain minimal at
 Mu2e-II due to the improved beam characteristics compared to Mu2e.
 For example, there are no antiproton-induced backgrounds for the
-Project-X scenarios since both 1~\gev\ and 3~\gev\ kinetic energy
+Project~X scenarios since both 1~\gev\ and 3~\gev\ kinetic energy
 protons are below the proton-antiproton production threshold.  The
 radiative pion capture background is kept under control for Mu2e-II
-owing to the narrower proton pulse widths at Project-X and owing to
-the significantly improved extinction provided by Project-X beams.
+owing to the narrower proton pulse widths at Project~X and owing to
+the significantly improved extinction provided by Project~X beams.
 Late-arriving backgrounds, such as $\pi$ decay-in-flight, are also
 kept under control by the decrease in the extinction ratio relative to
 those same quantities for Mu2e.
@@ -264,7 +266,7 @@ the only difference is in the duty factor (which increases from 30\%
 to 90\%) and the live-gate fraction. We scale the current Mu2e
 estimate for the cosmic-ray-induced backgrounds to account for these
 differences.  We assume that the veto efficiency for Mu2e-II is
-unchanged relative to Mu2e (99.99\% ). For a Project-X (PX) driven
+unchanged relative to Mu2e (99.99\% ). For a Project~X (PX) driven
 Mu2e-II experiment, the resulting cosmic-ray-induced background is
 $0.16$ events.
 
@@ -335,7 +337,7 @@ Table~\ref{cl:tab:PXBgd} along with the estimate for Mu2e.
   \end{tabular}
   \caption{A summary of the current Mu2e background estimates and 
     estimates of how the backgrounds would scale for a next generation
-    Mu2e experiment, Mu2e-II, that employs Project-X beams at 1 or 
+    Mu2e experiment, Mu2e-II, that employs Project~X beams at 1 or 
     3~\gev\ and an aluminum or titanium stopping target. For a given 
     stopping target, the difference in background yields between a 
     1~\gev\ or a 3~\gev\ proton beam is about 10\%.  The total 
@@ -361,7 +363,7 @@ target design would likely require modifications to the remote target
 handling system.  Depending on the proton beam energy and the PS
 configuration, it may be necessary to redesign some portions of the
 Mu2e beam line just upstream of the PS. Since the extinction in the
-Project-X scenarios is a factor 100 smaller than for Mu2e, the
+Project~X scenarios is a factor 100 smaller than for Mu2e, the
 Extinction Monitor system would have to be upgraded to increased
 acceptance/sensitivity.  It is expected that even at the increased
 rates and beam power discussed earlier, the transport solenoid and
@@ -374,7 +376,7 @@ higher peak power if replaced with tungsten~\cite{Mu2eII}.
 
 Although the beam power increases by a factor of 10 or more, the
 instantaneous rates only increase by a factor of 3-5 owing to the
-increased duty factor expected from Project-X.  This has important
+increased duty factor expected from Project~X.  This has important
 consequences for the viability of reusing much of the currently
 planned Mu2e detector apparatus for a next generation Mu2e-II.  For
 example, the current Mu2e tracker is being designed to handle
@@ -384,7 +386,7 @@ factors of two or four have been performed.  These studies indicate
 that at four times the nominal rates the tracker reconstruction
 efficiency only falls by about 5\% while maintaining the same momentum
 resolution.  Thus, these studies indicate that the Mu2e tracker would
-be able to handle the Project-X rates.  Simulation studies are
+be able to handle the Project~X rates.  Simulation studies are
 necessary to quantify the degree to which the increased rates affect
 the calorimeter's performance.  If it turns out that the expected
 performance is not sufficient to meet the Mu2e-II physics
@@ -412,21 +414,21 @@ incidental rates in the veto counters.
 
 We investigated the feasibility of a next generation Mu2e experiment
 (Mu2e-II) that uses as much of the currently planned facility as
-possible and Project-X beams to achieve a sensitivity that's about a
+possible and Project~X beams to achieve a sensitivity that's about a
 factor of ten better than Mu2e.  Based on these studies we conclude
 that a Mu2e-II experiment that reuses a large fraction of the
 currently planned Mu2e apparatus and provides a $\times 10$ improved
-sensitivity is feasible at Project-X with 100-150 kW of 1 or 3~\gev\
+sensitivity is feasible at Project~X with 100-150 kW of 1 or 3~\gev\
 proton beams.  Aside from the DIO background, which requires improved
 momentum resolution to mitigate, the remaining backgrounds are kept
-under control due to important features of Project-X.  The narrower
+under control due to important features of Project~X.  The narrower
 proton pulse width and expected excellent intrinsic extinction are
 both important to mitigating the RPC background.  The excellent
 intrinsic extinction is also important in mitigating backgrounds from
 late arriving protons such as $\mu$ and $\pi$ decay-in-flight and beam
 election backgrounds.  A beam energy below the proton-antiproton production
 threshold eliminates the antiproton induced backgrounds.  The high
-duty factor expected for Project-X is important since it enables a
+duty factor expected for Project~X is important since it enables a
 ten-fold improvement in sensitivity over a reasonable timescale while
 necessitating only a modest increase (a factor of 3-5, depending on
 scenario) in instantaneous rates at the detectors.  Because the
