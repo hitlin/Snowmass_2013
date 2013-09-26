@@ -10,14 +10,14 @@
 \contentsline {paragraph}{\numberline {1.2.2.2.1}Mu2e at Project X}{11}{paragraph.1.2.2.2.1}
 \contentsline {paragraph}{\numberline {1.2.2.2.2}A surface $\mu ^+$ Beam}{15}{paragraph.1.2.2.2.2}
 \contentsline {paragraph}{\numberline {1.2.2.2.3}$\mu \to e \gamma $}{19}{paragraph.1.2.2.2.3}
-\contentsline {paragraph}{\numberline {1.2.2.2.4}$\mu \to 3e$}{21}{paragraph.1.2.2.2.4}
-\contentsline {subsection}{\numberline {1.2.3}Tau Experimental Overview}{22}{subsection.1.2.3}
+\contentsline {paragraph}{\numberline {1.2.2.2.4}$\mu \to 3e$}{22}{paragraph.1.2.2.2.4}
+\contentsline {subsection}{\numberline {1.2.3}Tau Experimental Overview}{24}{subsection.1.2.3}
 \contentsline {section}{\numberline {1.3}Flavor-Conserving Processes}{26}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1} Magnetic and Electric Dipole Moment Theory Overview}{26}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Muon $g-2$: Experiment}{29}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Muon $g-2$: Expected improvements in the Predicted Value}{30}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.2}Muon $g-2$: Experiment}{30}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Muon $g-2$: Expected improvements in the Predicted Value}{31}{subsection.1.3.3}
 \contentsline {subsection}{\numberline {1.3.4}$\tau $ $g-2$ and EDM}{32}{subsection.1.3.4}
-\contentsline {subsection}{\numberline {1.3.5}Storage Ring EDMs}{32}{subsection.1.3.5}
-\contentsline {subsection}{\numberline {1.3.6}Precision measurements of the muon decay spectrum}{33}{subsection.1.3.6}
-\contentsline {subsection}{\numberline {1.3.7}Parity-Violating Experiments}{34}{subsection.1.3.7}
-\contentsline {section}{\numberline {1.4}Summary}{36}{section.1.4}
+\contentsline {subsection}{\numberline {1.3.5}Storage Ring EDMs}{33}{subsection.1.3.5}
+\contentsline {subsection}{\numberline {1.3.6}Precision measurements of the muon decay spectrum}{34}{subsection.1.3.6}
+\contentsline {subsection}{\numberline {1.3.7}Parity-Violating Experiments}{35}{subsection.1.3.7}
+\contentsline {section}{\numberline {1.4}Summary}{37}{section.1.4}
