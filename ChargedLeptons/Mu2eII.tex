@@ -276,29 +276,31 @@ mitigated through improved beam characteristics.  Radiative muon
 capture is a negligible background for Mu2e and remains so for
 Mu2e-II.
 
-The $\mu$ decay-in-orbit background is calculated assuming that the
-probability that a DIO event survives the reconstruction and selection
-requirements for Mu2e-II are unchanged relative to Mu2e,
-$\alpha_{\mathrm{DIO}} = \sn{1.9}{-18}$~\cite{Mu2eCDR}.  Note that
-this implicitly assumes that the momentum resolution, and in
-particular the magnitude and shape of the high-side tail, is unchanged
-relative to Mu2e. In addition, it assumes that the shape of the DIO
-spectrum for a titanium stopping target is the same as the shape of
-the spectrum for aluminum stopping target.  A Mu2e-II experiment with
-an aluminum stopping target and a $\times 10$ better sensitivity than
-Mu2e is therefore expected to have a DIO background $\times 10$ larger
-than Mu2e.  The only mitigations are to make more stringent momentum
-requirements or to redesign the tracker and the upstream material
-(e.g. stopping target, internal proton and neutron absorbers, etc.) to
-improve the momentum resolution.  Studies of the DIO background
-performed for the Mu2e experiment show that it is unlikely that for an
-aluminum stopping target, more stringent selection requirements alone
-could mitigate a ten-fold increase in the DIO background without a
-significant reduction in signal sensitivity.  For the increased
-sensitivity of a Mu2e-II experiment an improved momentum-scale
-calibration may also be required to reduce the DIO background.  This
-would not necessarily be the case for a Mu2e-II experiment that uses a
-titanium stopping target~\cite{DIOComment}.
+The $\mu$ decay-in-orbit background is estimated using dedicated simulations that include the effects of increased occupancy expected for the Mu2e-II scenarios considered.  It was found that in order to keep these backgrounds under control it will be necessary to improve the spectrometer resolution by reducing the material budget.  In the simulations we assumed the Mu2e tracker could be replaced with a similar geometry but using straws with half the wall thickness (ie. rebuild the tracker reducing the straw walls from 15~$\mu m$ to 8~$\mu m$ thick).  For the increased sensitivity of a Mu2e-II experiment an improved momentum-scale calibration may also be required to keep systematic uncertainties affecting the DIO background estimate from degrading the sensitivity.
+
+%The $\mu$ decay-in-orbit background is calculated assuming that the
+%probability that a DIO event survives the reconstruction and selection
+%requirements for Mu2e-II are unchanged relative to Mu2e,
+%$\alpha_{\mathrm{DIO}} = \sn{1.9}{-18}$~\cite{Mu2eCDR}.  Note that
+%this implicitly assumes that the momentum resolution, and in
+%particular the magnitude and shape of the high-side tail, is unchanged
+%relative to Mu2e. In addition, it assumes that the shape of the DIO
+%spectrum for a titanium stopping target is the same as the shape of
+%the spectrum for aluminum stopping target.  A Mu2e-II experiment with
+%an aluminum stopping target and a $\times 10$ better sensitivity than
+%Mu2e is therefore expected to have a DIO background $\times 10$ larger
+%than Mu2e.  The only mitigations are to make more stringent momentum
+%requirements or to redesign the tracker and the upstream material
+%(e.g. stopping target, internal proton and neutron absorbers, etc.) to
+%improve the momentum resolution.  Studies of the DIO background
+%performed for the Mu2e experiment show that it is unlikely that for an
+%aluminum stopping target, more stringent selection requirements alone
+%could mitigate a ten-fold increase in the DIO background without a
+%significant reduction in signal sensitivity.  For the increased
+%sensitivity of a Mu2e-II experiment an improved momentum-scale
+%calibration may also be required to reduce the DIO background.  This
+%would not necessarily be the case for a Mu2e-II experiment that uses a
+%titanium stopping target~\cite{DIOComment}.
 
 The summary of the background estimates for Mu2e-II are given in
 Table~\ref{cl:tab:PXBgd} along with the estimate for Mu2e.
@@ -313,7 +315,7 @@ Table~\ref{cl:tab:PXBgd} along with the estimate for Mu2e.
     & &\multicolumn{5}{c}{Events} \\ \hline
     \multirow{2}{*}{Intrinsic} 
                   & $\mu$ decay in orbit       
-    & & 0.22 & & 2.14 & & $0.58^*$  \\ 
+    & & 0.22 & & 0.26 & & $0.92$  \\ 
                   & radiative $\mu$ capture    
     & & $<0.01$ & & $<0.01$ & & $<0.01$  \\ \hline
     \multirow{4}{*}{Late Arriving}
@@ -326,29 +328,33 @@ Table~\ref{cl:tab:PXBgd} along with the estimate for Mu2e.
                   & $\pi$ decay in flight      
     & & $<0.01$ & & $<0.01$ & & $<0.01$  \\ \hline
     \multirow{3}{*}{Miscellaneous}
-                  & antiproton induced        
+                  & anti-proton induced        
     & & 0.10 & & -- & & --  \\
                   & cosmic-ray induced         
     & & 0.05 & & 0.16 & & 0.16   \\
                   & pat. recognition errors    
     & & $<0.01$ & & $<0.01$ & & $<0.01$  \\ \hline
     Total Background &                         
-    & & 0.41 & & 2.34 & & 0.79  \\ \hline\hline
+    & & 0.41 & & 0.46 & & 1.13  \\ \hline\hline
   \end{tabular}
-  \caption{A summary of the current Mu2e background estimates and 
+\medskip
+  \caption{A summary of the current Mu2e background estimate and 
     estimates of how the backgrounds would scale for a next generation
-    Mu2e experiment, Mu2e-II, that employs Project~X beams at 1 or 
+    Mu2e experiment, Mu2e-II, that employs Project-X beams at 1 or 
     3~\gev\ and an aluminum or titanium stopping target. For a given 
     stopping target, the difference in background yields between a 
     1~\gev\ or a 3~\gev\ proton beam is about 10\%.  The total 
     uncertainty on the total Mu2e background is estimated to be 
-    about 20\%. We've added a $*$ to the DIO estimate for the titanium
-    stopping target to emphasize the fact that this number is expected
-    to change once more detailed 
-    studies have been completed~\cite{DIOComment}.
+    about 20\%. Note that the DIO estimates for the Mu2e-II case
+    assume the tracker has been upgraded to use thinner walled straws.
+    If the tracker is not upgraded, the DIO estimates would increase as
+    discussed in reference~\cite{Mu2eII}
   }
   \label{cl:tab:PXBgd}
 \end{table}
+
+
+
 
 
 %\input{wp-upgrades}
