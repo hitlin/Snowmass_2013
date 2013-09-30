@@ -11,42 +11,44 @@
 
 
 
-At the magic momentum, the equation for the spin procession frequency of a charged particle in a storage ring is given by
+As detailed above, the equation for the spin precession frequency of a charged particle in a storage ring is
 \begin{equation}
 \vec{\omega}_{a\eta}= \vec \omega_a + \vec \omega_\eta = -
- a \frac {Qe}  {m}
- \vec{B}
- -  \eta \frac {Qe}{2m}
+ \frac {Qe}  {m}
+\left[
+a \vec{B}
+- \left( a - \left(  \frac {m} {p} \right)^2  \right)
+ \frac {\vec{\beta} \times \vec{E}} {c} \right] -  \eta \frac {Qe}{2m}
  \left[ \frac {\vec{E}} {c}  +  \vec{\beta} \times \vec{B} \right] .
- \label{eq:omegaa-edm1}
+ \label{eq:omegaa-edm2}
 \end{equation}
-The precession frequency is by far dominated by the $a= (g-2)/2$ term.  
-The key to extracting sensitivity to the EDM term $\eta$ is to find ways of reducing or eliminating the motion due to the magnetic term $a$. 
+The discussion above focused on experiments operating at the magic momentum, $p = \sqrt{a }/m$ that cancels the effect of the focusing $E$ field.  The precession frequency is then by far dominated by the $aB$ term.  
+The key to extracting sensitivity to the EDM term $\eta$ is to find ways of reducing or eliminating the motion due to the magnetic term $a$.  
 
-The first method is to use a magnetic storage ring such as the Muon g-2 experiment to extract a 
+The first method is to use a magnetic storage ring, such as the E821/E989 storage ring, to extract a 
 limit on the muon EDM.  In the muon rest frame, the muon sees a strong motional electric field
  pointing towards the center of the ring adding a small horizontal component to the precession 
  frequency vector that tilts the rotation plane.  For a positive EDM, when the spin is pointing into the 
  ring it will have a negative vertical component and when the spin is pointing to the outside of the ring 
  it will have a positive vertical component.  Since the positrons are emitted along the spin direction, 
  this asymmetry maps into the positron decay angle. Since the asymmetry is maximized when the spin 
- are perpendicular, the angular asymmetry is 90 degrees out of phase with the $g-2$ precession frequency.  
+ and momentum are perpendicular, the angular asymmetry is 90 degrees out of phase with the $g-2$ precession frequency.  
 Searches for this asymmetry have been used to set limits on the muon EDM both at the CERN and Brookhaven $g-2$ experiments. 
 
- A number of the E989 detector stations will
+ A number of the Fermilab Muon $g-2$ detector stations will
 be instrumented with straw chambers to measure the decay positron
 tracks. With this instrumentation, a simultaneous EDM
 measurement can be made during the $a_\mu$ data collection,
-improving on the  E821 muon EDM~\cite{Bennett08-edm}
+improving on the  Brookhaven muon EDM~\cite{Bennett08-edm}
  limit by up to two orders of magnitude down to
-$\sim 10^{-21}\,  e \cdot {\rm cm}$.   The J-PARC muon $g-2$ proposal also
- will have decay angle information for all tracks and expects a similar improvement.
+$\sim 10^{-21}\,  e \cdot {\rm cm}$.   The primary detector element of the J-PARC muon $g-2$ proposal  is a silicon tracker that will provide
+ decay angle information for all tracks and expects similar improvements.
 
-To go beyond this level for the muon, will require a dedicated EDM experiment that
+Going beyond this level for the muon will require a dedicated EDM experiment that
 uses
 the ``frozen spin'' method~\cite{Farley04,Roberts2010}.
  The idea is to operate a
-muon storage ring off of the  $g-2$ momentum and to use a radial electric field
+muon storage ring off of the  magic momentum and to use a radial electric field
 to cancel the $\omega_a$ term in Eq.~\ref{eq:omegaa-edm1},
  the $g-2$ precession.  The  electric field needed to freeze the spin is
 $E \simeq aBc\beta\gamma^2$.
@@ -56,21 +58,21 @@ with detectors above and below the storage region and forms the asymmetry
 (up - down)/(up + down).  To reach a sensitivity of $10^{-24}e \cdot {\rm cm}$ would
 require $\sim 4 \times 10^{16}$ recorded events~\cite{Farley04}.
  Preliminary discussions have begun on a frozen spin experiment
-using the ~1000 kW beam power available at the Project X 3 GeV rare process campus.
-
-An alternative method is to remove the $g-2$ precession frequency completely by removing 
-the magnet and using an electrostatic storage ring. This still requires the particle to be at the 
-magic momentum to cancel the motional magnetic field.  For these experiments, counter rotating 
-beams are used to cancel the dominant systematic effects associated with stray magnetic fields.  
-This idea has been studied in detail for the proton and deuteron with projected sensitivities approaching $10^{-30}$ 
-using fairly large storage rings an proton momenta of $700$ MeV.
-
-For the electron, the magic momentum is $15$ MeV.  The smaller momentum would allow for a
- much smaller storage ring.  Initial studies indicate that sensitivities up to $10^{-27}$ $\cdot $cm 
- can be achieved which would be competitive with current limits and would be the best limits for a
-  bare fermion.  Furthermore, this would act as a much smaller test bed for the proton storage ring EDM experiment and would 
-  help demonstrate that the systematic uncertainties could be controlled.
+using the ~1000 kW beam power available at the Project X rare process campus.
   
-((((((((Add a few paragraphs about the details of the electron proposal))))))))
+It is possible to make a direct measurement of the electron EDM using a storage ring analogous to way $g-2$ is extracted for the muon.  
+Here, the key to removing the magnetic precession is to use an electrostatic storage ring so that any spin precession can be attributed to an EDM.  Stray radial magnetic fields 
+would lead to a false signal.  The effects of these can be measured and controlled by using counter rotating beams. Several years of 
+R$\&$D have already been invested into this technique either for searching for a proton, deuteron, or muon EDM.  Fortuitously, the ratio
+ of the $g-2$ value to the mass of the electron is very similar to this ratio for the proton.  Many systematic effects scale with this ratio so 
+ that many studies already performed for the proton can be used for the electron.  Conversely, performing a storage ring EDM 
+ experiment on the electron would be an excellent test bed for a (more expensive) proton EDM experiment.
+ 
+ Also fortuitous for the electron is that its magic momentum is 15 MeV, requiring a relatively small and inexpensive storage ring.  The technology for the polarized source,
+  electrostatic magnets, and beam position monitors all seem to be available.  Concepts for the polarimeter are still being 
+  developed and are expected to be the limiting factor in the ultimate sensitivity of the experiment.  A polarimeter with high 
+  analyzing power would most likely lead to a sensitivity comparable with model independent extractions of the electron 
+  EDM from atoms and molecules.
+
 
 
