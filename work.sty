@@ -32,7 +32,8 @@
 
 %%define directory for includes; renewcommand before each chapter
 \newcommand{\chapterdir}{}
-
+
+
 %%define directory for includel; renewcommand before each chapter
 \newcommand{\chapname}{}
 
@@ -59,10 +60,10 @@
       {\fancyplain{}{\bf\thepage}}
 \cfoot{}
 \lfoot[\fancyplain{}
-      {\sc Community Planning Study:  Snowmass 2013 }]%
+      {\sc Community Summer Study:  Snowmass 2013 }]%
       {\fancyplain{}{}}
 \rfoot[\fancyplain{}{}]%
-      {\fancyplain{}{\sc Community Planning Study: Snowmass 2013 }}
+      {\fancyplain{}{\sc Community Summer Study: Snowmass 2013 }}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \c@secnumdepth\tw@
@@ -70,7 +71,8 @@
 
 %\addtolength{\headwidth}{-48pt}
 \def\@makechapterhead#1{%
-\leftline{\Huge\bf\hspace{7pt}\thechapter\hfill}
+%\leftline{\Huge\bf\hspace{7pt}\thechapter\hfill}
+%\leftline{\huge\bf\hspace{7pt}\thechapter\hfill}
 \vskip3pt
 \hbox to\headwidth{%
        \leaders\hrule height3.5pt\hfil}
@@ -79,7 +81,7 @@
        \leaders\hrule height1.5pt\hfil}
 \vskip18pt
 %\hbox to \headwidth{\begin{minipage}{6.5in}\begin{flushright}\Huge\bf{#1}\end{flushright}\end{minipage}}
-\hbox to \headwidth{\begin{minipage}{6.5in}\begin{center}\Huge\bf{#1}\end{center}\end{minipage}}
+\hbox to \headwidth{\begin{minipage}{6.5in}\begin{center}\huge\bf{#1}\end{center}\end{minipage}}
 }  %\vskip 30pt }
 %\addtolength{\headwidth}{48pt}
 
@@ -91,7 +93,7 @@
        \leaders\hrule height1.5pt\hfil}
 \vskip18pt
 %\hbox to \headwidth{\begin{minipage}{6.5in}\begin{flushright}\Huge\bf{#1}\end{flushright}\end{minipage}}
-\hbox to \headwidth{\begin{minipage}{6.5in}\begin{center}\Huge\bf{#1}\end{center}\end{minipage}}
+\hbox to \headwidth{\begin{minipage}{6.5in}\begin{center}\huge\bf{#1}\end{center}\end{minipage}}
 \vskip 30pt }
 %  \vspace*{50\p@}%
 %  {\parindent \z@ \raggedright
