@@ -1,23 +1,23 @@
 \contentsline {chapter}{\numberline {1}Executive Summary}{5}{chapter.1}
 \contentsline {chapter}{\numberline {2}Overview}{9}{chapter.2}
 \contentsline {chapter}{\numberline {3}Flavor-Violating Processes}{11}{chapter.3}
-\contentsline {section}{\numberline {3.1}Theory Overview}{13}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}CLFV Decays in Specific New Physics Models}{14}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Muon Experimental Overview}{16}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Muon Flavor Violation Experiments in this Decade}{16}{subsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.1.1}The Mu2e Experiment}{16}{subsubsection.3.2.1.1}
-\contentsline {subsection}{\numberline {3.2.2}Muon Flavor Violation: The Next Generation}{18}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Mu2e at Project X}{18}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}A surface $\mu ^+$ Beam}{22}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}$\mu \to e \gamma $}{26}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}$\mu \to 3e$}{29}{subsection.3.2.6}
-\contentsline {section}{\numberline {3.3}Tau Experimental Overview}{31}{section.3.3}
-\contentsline {chapter}{\numberline {4}Flavor-Conserving Processes}{35}{chapter.4}
-\contentsline {section}{\numberline {4.1}Magnetic and Electric Dipole Moment Theory Overview}{35}{section.4.1}
-\contentsline {section}{\numberline {4.2}Muon $g-2$: Experiment}{38}{section.4.2}
-\contentsline {section}{\numberline {4.3}Muon $g-2$: Expected Improvements in the Predicted Value}{39}{section.4.3}
-\contentsline {section}{\numberline {4.4}$\tau $ $g-2$ and EDM}{41}{section.4.4}
-\contentsline {section}{\numberline {4.5}Storage Ring EDMs}{42}{section.4.5}
-\contentsline {section}{\numberline {4.6}Precision Measurements of the Muon Decay Spectrum}{43}{section.4.6}
-\contentsline {section}{\numberline {4.7}Parity-Violating Experiments}{43}{section.4.7}
-\contentsline {chapter}{\numberline {5}Conclusions}{47}{chapter.5}
+\contentsline {section}{\numberline {3.1}Theory Overview}{11}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}CLFV Decays in Specific New Physics Models}{12}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Muon Experimental Overview}{14}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Muon Flavor Violation Experiments in this Decade}{14}{subsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.1.1}The Mu2e Experiment}{14}{subsubsection.3.2.1.1}
+\contentsline {subsection}{\numberline {3.2.2}Muon Flavor Violation: The Next Generation}{16}{subsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.1}Mu2e at Project X}{16}{subsubsection.3.2.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2.2}A surface $\mu ^+$ Beam}{20}{subsubsection.3.2.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.3}$\mu \to e \gamma $}{24}{subsubsection.3.2.2.3}
+\contentsline {subsubsection}{\numberline {3.2.2.4}$\mu \to 3e$}{27}{subsubsection.3.2.2.4}
+\contentsline {section}{\numberline {3.3}Tau Experimental Overview}{28}{section.3.3}
+\contentsline {chapter}{\numberline {4}Flavor-Conserving Processes}{33}{chapter.4}
+\contentsline {section}{\numberline {4.1}Magnetic and Electric Dipole Moment Theory Overview}{33}{section.4.1}
+\contentsline {section}{\numberline {4.2}Muon $g-2$: Experiment}{36}{section.4.2}
+\contentsline {section}{\numberline {4.3}Muon $g-2$: Expected Improvements in the Predicted Value}{37}{section.4.3}
+\contentsline {section}{\numberline {4.4}$\tau $ $g-2$ and EDM}{39}{section.4.4}
+\contentsline {section}{\numberline {4.5}Storage Ring EDMs}{40}{section.4.5}
+\contentsline {section}{\numberline {4.6}Precision Measurements of the Muon Decay Spectrum}{41}{section.4.6}
+\contentsline {section}{\numberline {4.7}Parity-Violating Experiments}{41}{section.4.7}
+\contentsline {chapter}{\numberline {5}Conclusions}{45}{chapter.5}
